@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div id="dpcontainer">
+            <img src="dp.jpg" id="dp">
+        </div>
+        <div class="icon">
+            <i class="fas fa-envelope"></i>
+            <div class="data">
+                frankpham1@gmail.com
+            </div>
+        </div>
+        <div class="icon">
+            <i class="fas fa-mobile-alt"></i>
+            <div class="data">
+                +1 438 993 4858
+            </div>
+        </div>
+        <div class="icon">
+            <div class="fancy-link">
+                <a href="https://github.com/Franky-Pham" id="Git">
+                    <i class="fab fa-github"></i>
+                    GitHub
+                </a>
+            </div>
+        </div>
+        <div class="banner">*</div>
+        <div class="buttonsAbove">
+            <button class="button" id="aboutMeBtn">About me</button>
+            <button class="button" id="skillsBtn">Skills</button>
+            <button class="button" id="workBtn">Work</button>
+        </div>
+        <div class="buttonsBelow">
+            <button class="button" id="educationBtn">Education</button>
+            <button class="button" id="contactBtn">Contact</button>
+        </div>
+        <div class="Section-aboutme">
+            <h1 id="about">About me</h1>
+            <p>
+                My name is Frank and I am attending my first year of Computer Science currently at Lasalle College, Montreal.
+                I am eager to learn, as I like to welcome new challenges and have a deep interest in Computer Science.
+                Being a focused individual with a consistent work ethic and striving for a productive team dynamic are elements of
+                myself that I continuously improve.
+                I plan on obtaining my DEC while working my way through the program to my best, which will then ultimately further my
+                chances in enrolling into a university.
+                <br>
+                <br>
+                Now more about myself: I've lived most of my life in Montreal and Ontario, but lived in Vietnam for a couple of years when I was a toddler.
+                Growing up, my friends and I would spontaneously do activities that are uncommon, such as Tree Planting. Though Tree Planting definitely sounds
+                mundane, the experience that I've accumalated from it has carried me forward through my progression as an individual. Being around computers from
+                a young age made me feel more in tune with technology, which helped me cultivate friendships with people of similar interests. I welcome 
+                my many trials and errors, such as when I was pursuing a nursing carreer and had realized it was not for me. Finally, I've come to believing that 
+                Computer Science is a path that I want to be part of my future.
+            </p>
+        </div>
+        <div class="Section-skills">
+            <h1 id="skill">Skills</h1>
+            <img src="working.PNG" class="workingImg">
+            <ul class="skills-list">
+                <li class="skills">Always looking to optimize basic skills for efficiency.</li>
+                <li class="skills">Working in a team.</li>
+                <li class="skills">Rationality to tackle problem solving.</li>
+                <li class="skills">Multitasking.</li>
+                <li class="skills">Creating japanese cuisine.</li>
+            </ul>
+        </div>
+        <div class="Section-work">
+            <h1 id="work">Work</h1>
+            <div id="list-wrapper">
+                <div class="list-item" id="outlandli">
+                    <p>Outland Reforestation<br>2019 - 2021</p>
+                </div>
+                <div class="list-item">
+                    <p>Sushi Shop<br>2019 - 2021</p>
+                </div>
+                <div class="list-item" id="sweatli">
+                    <p>Intern at Sweat. Inc<br>
+                        (Collective of computer science students who work on projects)<br>2021 - Present
+                    </p>
+                </div>
+                <img src="working2.png" class="workingImg">
+            </div>
+        </div>
+        <div class="Section-education">
+            <h1 id="education">Education</h1>
+            <ul>
+                <li>St. Lawrence College - Diploma Pre-Nursing<br>2018-2019</li>
+                <li>St. Lawrence Highschool - Highschool Diploma<br>2017-2018</li>
+                <li>Current: Lasalle College - Computer Science<br>2020-Present</li>
+            </ul>
+            <img src="Lasalle.jpg" class="workingImg">
+        </div>
+        <div class="notifSent">
+            <span>Message Sent.</span>
+        </div>
+        <div class="notifError">
+            <span>Please fill in the fields and correct information.</span>
+        </div>
+        <div class="Section-contact">
+            <h1 id="contact">Contact</h1>
+            <form class="contact" action="" method="post">
+                <input type="text" name="name" class="text-box" placeholder="Your Name" required>
+                <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                <textarea name ="message" rows="5" id="messageBox" placeholder="Your Message" required></textarea>
+                <input type="submit" name="submit" class="button" id="btnContact" value="Send">
+            </form>
+        </div>
+        <script src="index.js"></script>
+    </main>
+</body>
+
+
+</html>
